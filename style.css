@@ -116,3 +116,43 @@ button {
     font-weight: 700;
     padding-right: 40px;
 }
+
+.action-pad {
+    padding: 105px 18px;
+}
+
+.action-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1020px;
+    padding: 50px 0px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.action-left {
+    padding-left: 125px;
+}
+
+.action-left .heading {
+    color: #f9faf8;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.action-left .blurb {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button-container {
+    margin-left: auto;
+    padding-right: 125px;
+}
+
+.button-container button {
+    border: 2px solid #f9faf8;
+    padding: 6px 30px;
+}
