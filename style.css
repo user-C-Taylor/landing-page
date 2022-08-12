@@ -38,7 +38,17 @@ nav, .hero-body, .footer {
     color: #f9faf8;
 }
 
-.hero-subtext, nav a, .hero-image, button {
+button {
+    font-size: 18px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-weight: 700;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-subtext, nav a, .hero-image {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -62,7 +72,7 @@ nav, .hero-body, .footer {
     margin-left: auto;
     margin-right: auto;
     width: 1020px;
-    padding: 100px 20px 130px 20px;
+    padding: 100px 18px 130px 18px;
     display: flex;
     align-items: center;
     gap: 50px;
@@ -82,10 +92,3 @@ nav, .hero-body, .footer {
     margin-bottom: 12px;
 }
 
-.hero-left button {
-    background-color: #3882f6;
-    font-weight: 700;
-    padding: 8px 30px;
-    border: none;
-    border-radius: 8px;
-}
