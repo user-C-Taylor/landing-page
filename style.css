@@ -27,12 +27,12 @@ nav, .hero-body, .footer {
 }
 
 .logo {
-    font-size: 48px;
+    font-size: 24px;
     color: #f9faf8;
 }
 
 .hero-text {
-    font-size: 20px;
+    font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
 }
