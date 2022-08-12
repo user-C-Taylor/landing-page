@@ -38,7 +38,7 @@ nav, .hero-body, .footer {
     color: #f9faf8;
 }
 
-.hero-subtext, nav a, .hero-image {
+.hero-subtext, nav a, .hero-image, button {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -58,4 +58,34 @@ nav, .hero-body, .footer {
     gap: 25px;
 }
 
+.hero-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1020px;
+    padding: 100px 20px 130px 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 
+.hero-image {
+    flex-shrink: 0;
+    width: 520px;
+    height: 240px;
+    background-color: #708090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-subtext {
+    margin-bottom: 12px;
+}
+
+.hero-left button {
+    background-color: #3882f6;
+    font-weight: 700;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 8px;
+}
