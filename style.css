@@ -53,10 +53,14 @@ button {
     color: #e5e7eb;
 }
 
+/* "border-box" solved .nav-container overflow issue when excessive
+   padding was added. */
 .nav-container {
     margin-left: auto;
     margin-right: auto;
     padding: 18px;
+    /* added 36px to width to accommodate for border-box squeezing the 
+       18px of padding in. */
     width: 1056px;
     display: flex;
     align-items: center;
@@ -72,6 +76,8 @@ button {
 .hero-container {
     margin-left: auto;
     margin-right: auto;
+    /* added 36px to width to accommodate for border-box squeezing the 
+       18px of padding in. */
     width: 1056px;
     padding: 100px 18px 130px 18px;
     display: flex;
@@ -123,6 +129,7 @@ button {
     padding: 105px 18px;
 }
 
+/* "border-box" allowed keeping width when padding was added. */
 .action-container {
     margin-left: auto;
     margin-right: auto;
