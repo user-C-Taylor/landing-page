@@ -53,6 +53,10 @@ button {
     color: #e5e7eb;
 }
 
+nav {
+    display: flex;
+}
+
 /* "border-box" solved .nav-container overflow issue when excessive
    padding was added. */
 .nav-container {
@@ -71,6 +75,10 @@ button {
     margin-left: auto;
     display: flex;
     gap: 25px;
+}
+
+.hero-body {
+    display: flex;
 }
 
 .hero-container {
@@ -93,6 +101,10 @@ button {
 
 .hero-subtext {
     margin-bottom: 12px;
+}
+
+.image-section {
+    display: flex;
 }
 
 .image-section-container {
@@ -151,6 +163,7 @@ button {
 
 .quote-section {
     background-color: #e5e7eb;
+    display: flex;
 }
 
 .quote-container {
@@ -176,6 +189,7 @@ button {
 
 .action-pad {
     padding: 105px 18px;
+    display: flex;
 }
 
 /* "border-box" allowed keeping width when padding was added. */
