@@ -46,6 +46,9 @@ button {
     padding: 8px 30px;
     border: none;
     border-radius: 8px;
+    /* "max-content" keeps buttons from getting crushed by flex as the 
+       .action-container flexing could do. */
+    width: max-content;
 }
 
 .hero-subtext, nav a, .hero-image {
@@ -187,12 +190,14 @@ nav {
     padding-right: 40px;
 }
 
+/* Pad around the .action-container. */
 .action-pad {
     padding: 105px 18px;
     display: flex;
 }
 
-/* "border-box" allowed keeping width when padding was added. */
+/* "border-box" allowed keeping narrower width when padding was added. 
+   */
 .action-container {
     margin-left: auto;
     margin-right: auto;
