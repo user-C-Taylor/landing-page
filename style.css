@@ -72,11 +72,12 @@ button {
 .hero-container {
     margin-left: auto;
     margin-right: auto;
-    width: 1020px;
+    width: 1056px;
     padding: 100px 18px 130px 18px;
     display: flex;
     align-items: center;
     gap: 50px;
+    box-sizing: border-box;
 }
 
 .hero-image {
