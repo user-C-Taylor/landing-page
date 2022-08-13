@@ -22,7 +22,9 @@ a {
     text-decoration: none;
 }
 
-nav, .hero-body, .footer {
+nav, 
+.hero-body, 
+.footer {
     background-color: #1f2937;
 }
 
@@ -51,7 +53,8 @@ button {
     width: max-content;
 }
 
-.hero-subtext, nav a, .hero-image {
+.hero-subtext, 
+nav a {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -66,7 +69,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     padding: 18px;
-    /* added 36px to width to accommodate for border-box squeezing the 
+    /* Added 36px to width to accommodate for border-box squeezing the 
        18px of padding in. */
     width: 1056px;
     display: flex;
@@ -87,7 +90,7 @@ nav {
 .hero-container {
     margin-left: auto;
     margin-right: auto;
-    /* added 36px to width to accommodate for border-box squeezing the 
+    /* Added 36px to width to accommodate for border-box squeezing the 
        18px of padding in. */
     width: 1056px;
     padding: 100px 18px 130px 18px;
