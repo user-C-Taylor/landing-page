@@ -57,9 +57,10 @@ button {
     margin-left: auto;
     margin-right: auto;
     padding: 18px;
-    width: 1020px;
+    width: 1056px;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .nav-container ul {
