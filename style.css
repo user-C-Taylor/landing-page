@@ -53,6 +53,18 @@ button {
     width: max-content;
 }
 
+button:hover {
+    background-color: #3272d8;
+    cursor: pointer;
+}
+
+/* On button click. */
+button:active {
+    background-color: #5d96f3;
+    transform: scale(1.05);
+    transition: all ease-in-out;
+}
+
 .hero-subtext, 
 nav a {
     font-size: 18px;
