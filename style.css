@@ -104,9 +104,19 @@ nav {
     margin-bottom: 12px;
 }
 
+.hero-left button::selection {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
 .hero-left button:hover {
     background-color: #3272d8;
     cursor: pointer;
+}
+
+.hero-left button:hover::selection {
+    background-color: #3272d8;
+    color: #f9faf8;
 }
 
 /* On button click. */
@@ -114,6 +124,14 @@ nav {
     background-color: #5d96f3;
     transform: scale(1.05);
     transition: all ease-in-out;
+}
+
+/* In some instances background of the action section button text would 
+   retain :hover background-color. Maybe this helps. Hard to replicate. 
+   */
+.hero-left button:active::selection {
+    background-color: #5d96f3;
+    color: #f9faf8;
 }
 
 .hero-image {
@@ -249,9 +267,19 @@ nav {
     padding: 6px 30px;
 }
 
+.button-container button::selection {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
 .button-container button:hover {
     background-color: #3272d8;
     cursor: pointer;
+}
+
+.button-container button:hover::selection {
+    background-color: #3272d8;
+    color: #f9faf8;
 }
 
 /* On button click. */
@@ -259,6 +287,14 @@ nav {
     background-color: #5d96f3;
     transform: scale(1.05);
     transition: all ease-in-out;
+}
+
+/* In some instances background of the action section button text would 
+   retain :hover background-color. Maybe this helps. Hard to replicate. 
+   */
+.button-container button:active::selection {
+    background-color: #5d96f3;
+    color: #f9faf8;
 }
 
 .footer {
