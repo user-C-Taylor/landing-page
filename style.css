@@ -53,17 +53,7 @@ button {
     width: max-content;
 }
 
-button:hover {
-    background-color: #3272d8;
-    cursor: pointer;
-}
 
-/* On button click. */
-button:active {
-    background-color: #5d96f3;
-    transform: scale(1.05);
-    transition: all ease-in-out;
-}
 
 .hero-subtext, 
 nav a {
@@ -112,13 +102,25 @@ nav {
     box-sizing: border-box;
 }
 
+.hero-subtext {
+    margin-bottom: 12px;
+}
+
+.hero-left button:hover {
+    background-color: #3272d8;
+    cursor: pointer;
+}
+
+/* On button click. */
+.hero-left button:active {
+    background-color: #5d96f3;
+    transform: scale(1.05);
+    transition: all ease-in-out;
+}
+
 .hero-image {
     width: 520px;
     height: 240px;
-}
-
-.hero-subtext {
-    margin-bottom: 12px;
 }
 
 .image-section {
@@ -247,6 +249,18 @@ nav {
 .button-container button {
     border: 2px solid #f9faf8;
     padding: 6px 30px;
+}
+
+.button-container button:hover {
+    background-color: #3272d8;
+    cursor: pointer;
+}
+
+/* On button click. */
+.button-container button:active {
+    background-color: #5d96f3;
+    transform: scale(1.05);
+    transition: all ease-in-out;
 }
 
 .footer {
